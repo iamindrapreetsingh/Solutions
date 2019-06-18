@@ -1,0 +1,16 @@
+Abstract class                                   Interface
+
+Abstract class method are default                Interface methods are public by default
+public by default
+
+Abstract class data members are default          Interface class data members are public static
+by default.                                      final by default.
+
+we can make constructor for abstract             We can not make constructor for interface
+classes.
+
+abstract class Test                               interface Test
+{                                                 {
+int a=7;                                          int k=9;
+abstract void test();                             void test();
+}                                                 }
